@@ -1,0 +1,40 @@
+h1,
+h2,
+p,
+li,
+button {
+  font-family: $font-family-primary;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: var(--font-weight-semiBold);
+}
+
+h1 {
+  font-size: var(--size-50);
+}
+
+h2 {
+  font-size: var(--size-40);
+}
+
+h3 {
+  font-size: var(--size-30);
+}
+
+h4 {
+  font-size: var(--size-20);
+}
+
+p,
+li {
+  font-size: var(--size-10);
+}
+
+button {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--size-10);
+}
