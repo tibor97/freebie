@@ -5,7 +5,11 @@
   padding: 0 var(--size-10);
   margin: 0 auto;
 }
-
+//colors
+.u-color-white {
+  color: var(--white);
+}
+//flex
 .u-flex {
   display: flex;
 }

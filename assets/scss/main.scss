@@ -1,7 +1,6 @@
 //utilities
 @import "utilities/variables";
 @import "utilities/mixins";
-@import "utilities/utility-classes";
 
 //general
 @import "general/fonts";
@@ -13,3 +12,8 @@
 @import "components/hamburger-menu-icon";
 @import "components/buttons";
 @import "components/logo";
+@import "components/footer";
+@import "components/social-media-icons";
+
+//utilitiy classes
+@import "utilities/utility-classes";
