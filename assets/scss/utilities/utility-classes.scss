@@ -1,6 +1,13 @@
-//container
+//containers
 .u-main-container {
   max-width: var(--size-100);
+  width: 100%;
+  padding: 0 var(--size-10);
+  margin: 0 auto;
+}
+
+.u-sm-container {
+  max-width: 1070px;
   width: 100%;
   padding: 0 var(--size-10);
   margin: 0 auto;
@@ -16,4 +23,25 @@
 
 .u-flex-space-between {
   justify-content: space-between;
+}
+
+.u-flex-halves {
+  flex: 0 1 100%;
+
+  @include min-mq($tabletPortrait) {
+    flex: 0 1 50%;
+  }
+}
+
+.u-flex-align-items-center {
+  align-items: center;
+}
+
+.u-flex-wrap {
+  flex-wrap: wrap;
+}
+
+.u-paragraf-large {
+  font-size: var(--size-20);
+  padding: var(--size-30) 0 var(--size-40);
 }

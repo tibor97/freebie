@@ -2,11 +2,16 @@
   color: var(--white);
   background-color: var(--primary-color);
   border: none;
-  padding: 15px 40px;
-  border-radius: 40px;
+  padding: var(--size-10) var(--size-40);
+  border-radius: var(--size-40);
   cursor: pointer;
 
   &:hover {
     opacity: 0.8;
   }
+}
+
+.c-button--transparent {
+  color: var(--primary-color);
+  background-color: transparent;
 }
