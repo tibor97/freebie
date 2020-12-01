@@ -1,0 +1,15 @@
+//container
+.u-main-container {
+  max-width: var(--size-100);
+  width: 100%;
+  padding: 0 var(--size-10);
+  margin: 0 auto;
+}
+
+.u-flex {
+  display: flex;
+}
+
+.u-flex-space-between {
+  justify-content: space-between;
+}

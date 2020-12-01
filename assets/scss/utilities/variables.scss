@@ -3,11 +3,13 @@
   --font-family-primary: "Poppins", sans-serif;
 
   //sizes
+  --size-5: 0.5625rem;
   --size-10: 1rem;
   --size-20: 1.125rem;
   --size-30: 1.25rem;
   --size-40: 2.25rem;
   --size-50: 3.75rem;
+  --size-100: 75rem;
 
   //font-weight
   --font-weight-regular: 400;
@@ -26,4 +28,17 @@
 
   --white: #fff;
   --black: #000;
+  --transparent: transparent;
 }
+
+//breakpoints
+$min-desktop: 1023px;
+// $min-tablet: 767px;
+
+$xsmall: 320px;
+$mobile: 375px;
+$tabletPortrait: 768px;
+$tabletLandscape: 1024px;
+$laptop: 1280px;
+$large: 1440px;
+$xlarge: 1920px;
