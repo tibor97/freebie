@@ -1,0 +1,13 @@
+.c-social-media-icons-wrapper {
+  padding: var(--size-35) 0 var(--size-50);
+}
+
+.c-social-media-icons {
+  color: var(--secondary-color);
+  font-size: var(--size-35);
+  padding: var(--size-10);
+
+  &:hover {
+    color: var(--white);
+  }
+}
