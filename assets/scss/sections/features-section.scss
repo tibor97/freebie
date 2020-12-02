@@ -8,7 +8,7 @@
   }
 }
 
-.c-feaures__content-wrapper {
+.c-content-wrapper--features {
   width: 100%;
   @include min-mq($tabletLandscape) {
     max-width: var(--size-75);
