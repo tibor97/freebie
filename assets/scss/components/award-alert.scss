@@ -1,0 +1,14 @@
+.c-award-alert {
+  background-color: var(--grey-light);
+  display: inline-block;
+  border-radius: 50px;
+  padding-right: 50px;
+
+  i {
+    background-color: var(--gold);
+    padding: 10px;
+    border-radius: 50%;
+    height: 100%;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,9 @@
+.c-section {
+  padding: var(--size-70) 0;
+}
+
+.c-section--hero {
+  background: url("../images/hero-section-background.png") repeat-x bottom,
+    url("../images/background-shapes.png") no-repeat 33% 1%,
+    url("../images/background-shapes-2.png") no-repeat 15% 40%;
+}
