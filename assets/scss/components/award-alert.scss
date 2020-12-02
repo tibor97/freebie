@@ -1,14 +1,26 @@
 .c-award-alert {
   background-color: var(--grey-light);
   display: inline-block;
-  border-radius: 50px;
-  padding-right: 50px;
+  border-radius: var(--size-40);
+  padding: var(--size-4) var(--size-40);
+  position: relative;
 
   i {
     background-color: var(--gold);
-    padding: 10px;
+    padding: var(--size-5);
     border-radius: 50%;
-    height: 100%;
-    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    @include max-mq(372px) {
+      padding: var(--size-10);
+      font-size: var(--size-35);
+    }
+  }
+
+  @include max-mq(372px) {
+    padding: var(--size-4) var(--size-35) var(--size-4) var(--size-60);
   }
 }
