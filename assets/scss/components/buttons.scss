@@ -1,6 +1,6 @@
 .c-button {
   color: var(--white);
-  background-color: var(--primary-color);
+  background-color: var(--blue);
   border: none;
   padding: var(--size-10) var(--size-40);
   border-radius: var(--size-40);
@@ -12,6 +12,6 @@
 }
 
 .c-button--transparent {
-  color: var(--primary-color);
+  color: var(--blue);
   background-color: transparent;
 }

@@ -54,12 +54,12 @@ nav {
   display: block;
   padding: var(--size-5) 0;
   font-size: var(--size-30);
-  color: var(--primary-color-dark);
+  color: var(--blue-dark);
   text-decoration: none;
   transition: color 0.4s;
 
   &:hover {
-    color: var(--primary-color-light);
+    color: var(--blue-light);
   }
 
   @include min-mq($tabletLandscape) {
