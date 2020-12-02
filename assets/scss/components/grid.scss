@@ -1,0 +1,19 @@
+.c-grid {
+  display: grid;
+}
+
+.c-grid--5-columns {
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: var(--size-30);
+  row-gap: var(--size-40);
+  align-items: center;
+  justify-items: center;
+
+  @include min-mq($mobile) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include min-mq($tabletPortrait) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
