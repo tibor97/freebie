@@ -1,5 +1,9 @@
 .c-section {
-  padding: var(--size-70) 0;
+  padding: var(--size-60) 0;
+
+  @include min-mq($tabletLandscape) {
+    padding: var(--size-70) 0;
+  }
 }
 
 .c-section--hero {
