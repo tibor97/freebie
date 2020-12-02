@@ -41,6 +41,14 @@
   flex-wrap: wrap;
 }
 
+.u-flex-wrap-mobile {
+  flex-wrap: wrap;
+
+  @include min-mq($tabletPortrait) {
+    flex-wrap: nowrap;
+  }
+}
+
 .u-paragraf-large {
   font-size: var(--size-20);
   padding: var(--size-30) 0 var(--size-40);
@@ -52,4 +60,27 @@
 //colors
 .u-color-blue-dark {
   color: var(--blue-dark);
+}
+
+.u-color-blue-light {
+  color: var(--blue-light);
+}
+.u-color-green {
+  color: var(--green);
+}
+
+.u-color-pink {
+  color: var(--pink);
+}
+//bg color
+.u-bg-color-pink-light {
+  background-color: var(--pink-light);
+}
+
+.u-bg-color-blue-extra-light {
+  background-color: var(--blue-extra-light);
+}
+
+.u-bg-color-green-light {
+  background-color: var(--green-light);
 }
