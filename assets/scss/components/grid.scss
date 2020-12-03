@@ -3,7 +3,6 @@
 }
 
 .c-grid--5-columns {
-  grid-template-columns: repeat(1, 1fr);
   column-gap: var(--size-30);
   row-gap: var(--size-40);
   align-items: center;
