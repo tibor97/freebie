@@ -29,6 +29,10 @@
   justify-content: space-between;
 }
 
+.u-flex-space-evenly {
+  justify-content: space-evenly;
+}
+
 .u-flex-center {
   justify-content: center;
 }
@@ -91,6 +95,10 @@
 
 .u-bg-color-green-light {
   background-color: var(--green-light);
+}
+
+.u-bg-color-gold-light {
+  background-color: var(--gold-light);
 }
 
 //headings
