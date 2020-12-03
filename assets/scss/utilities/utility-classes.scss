@@ -21,6 +21,10 @@
   display: flex;
 }
 
+.u-flex-column {
+  flex-direction: column;
+}
+
 .u-flex-space-between {
   justify-content: space-between;
 }
@@ -83,4 +87,27 @@
 
 .u-bg-color-green-light {
   background-color: var(--green-light);
+}
+
+//headings
+.u-h2-large {
+  font-size: var(--size-40);
+
+  @include min-mq($tabletPortrait) {
+    padding-right: var(--size-50);
+    border-right: 1px solid var(--grey);
+  }
+}
+
+//padding
+.u-padd-left-right-50 {
+  padding: 0;
+
+  @include min-mq($tabletPortrait) {
+    padding: 0 var(--size-50);
+  }
+}
+
+.u-padd-0 {
+  padding: 0;
 }

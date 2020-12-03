@@ -1,7 +1,15 @@
 .c-card {
-  margin: 50px 0;
+  margin: var(--size-35) 0;
 }
+
+.c-card--small {
+  @include min-mq($tabletPortrait) {
+    max-width: var(--size-73);
+  }
+}
+
 .c-card__icon-wrapper {
+  display: inline-block;
   padding: var(--size-10);
   border-radius: 50%;
 }
