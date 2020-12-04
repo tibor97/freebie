@@ -5,3 +5,11 @@
     max-width: var(--size-75);
   }
 }
+
+.c-content-wrapper-large {
+  width: 100%;
+
+  @include min-mq($tabletLandscape) {
+    max-width: var(--size-80);
+  }
+}

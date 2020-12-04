@@ -1,0 +1,13 @@
+.c-section--ultimate-features {
+  padding-left: var(--size-10);
+  padding-right: var(--size-10);
+
+  @include max-mq(900px) {
+    flex-wrap: wrap;
+  }
+
+  @include min-mq($tabletLandscapeLg) {
+    padding-left: calc((100vw - var(--size-98)) / 2);
+    padding-right: 0;
+  }
+}
