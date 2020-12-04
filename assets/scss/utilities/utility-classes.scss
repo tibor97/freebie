@@ -12,6 +12,13 @@
   padding: 0 var(--size-10);
   margin: 0 auto;
 }
+
+.u-lg-container {
+  max-width: 1630px;
+  width: 100%;
+  padding: 0 var(--size-10);
+  margin: 0 auto;
+}
 //colors
 .u-color-white {
   color: var(--white);
@@ -122,4 +129,9 @@
 
 .u-padd-0 {
   padding: 0;
+}
+
+//margins
+.u-margin-auto {
+  margin: 0 auto;
 }

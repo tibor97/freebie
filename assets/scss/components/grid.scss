@@ -2,6 +2,14 @@
   display: grid;
 }
 
+.c-grid--2-columns {
+  column-gap: var(--size-30);
+
+  @include min-mq($tabletPortrait) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .c-grid--5-columns {
   column-gap: var(--size-30);
   row-gap: var(--size-40);
