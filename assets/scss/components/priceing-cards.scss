@@ -1,0 +1,40 @@
+.c-priceing-card {
+  width: 100%;
+  background-color: var(--thite);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: var(--size-40) var(--size-30) 0;
+
+  @include min-mq($tabletPortrait) {
+    max-width: var(--size-74);
+  }
+}
+
+.c-priceing-card--shadow {
+  box-shadow: 4px 55px 30px var(--grey-light);
+  padding-bottom: var(--size-35);
+}
+
+.c-priceing-card--border {
+  border: 1px solid var(--grey);
+}
+
+.c-priceing-card__header {
+  background-color: #f4f6f9;
+  background: linear-gradient(180deg, white 0%, var(--grey-extra-light) 100%);
+  padding: var(--size-40) var(--size-5) var(--size-35);
+}
+
+.c-priceing-card__price {
+  color: var(--blue-dark);
+  font-size: var(--size-50);
+  font-weight: var(--font-weight-semiBold);
+}
+
+.c-priceing-card__list {
+  padding: var(--size-30) 0;
+
+  li {
+    padding: var(--size-7) 0;
+  }
+}

@@ -1,0 +1,30 @@
+.c-tabs-wrapper {
+  display: inline-block;
+  padding: var(--size-3);
+  border: 1px solid var(--grey);
+  border-radius: var(--size-40);
+  margin-top: var(--size-60);
+}
+
+.c-tab {
+  padding: var(--size-5) var(--size-35);
+  border: none;
+  background-color: transparent;
+  color: var(--grey);
+  border-radius: var(--size-40);
+  font-weight: var(--font-weight-bold);
+  cursor: pointer;
+
+  @include min-mq($tabletPortrait) {
+    padding: var(--size-5) var(--size-40);
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.c-tab--active {
+  background-color: var(--blue);
+  color: var(--white);
+}

@@ -4,6 +4,7 @@
   border: none;
   padding: var(--size-10) var(--size-40);
   border-radius: var(--size-40);
+  font-weight: var(--font-weight-bold);
   cursor: pointer;
 
   &:hover {
@@ -14,4 +15,5 @@
 .c-button--transparent {
   color: var(--blue);
   background-color: transparent;
+  font-weight: var(--font-weight-regular);
 }

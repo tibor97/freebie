@@ -13,12 +13,6 @@
   margin: 0 auto;
 }
 
-.u-lg-container {
-  max-width: 1630px;
-  width: 100%;
-  padding: 0 var(--size-10);
-  margin: 0 auto;
-}
 //colors
 .u-color-white {
   color: var(--white);
@@ -56,6 +50,9 @@
   align-items: center;
 }
 
+.u-flex-align-items-start {
+  align-items: flex-start;
+}
 .u-flex-wrap {
   flex-wrap: wrap;
 }
