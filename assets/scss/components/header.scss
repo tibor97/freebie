@@ -64,6 +64,6 @@ nav {
 
   @include min-mq($tabletLandscape) {
     font-size: var(--size-10);
-    padding: 15px;
+    padding: var(--size-35) var(--size-10);
   }
 }

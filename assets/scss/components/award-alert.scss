@@ -2,7 +2,7 @@
   background-color: var(--grey-light);
   display: inline-block;
   border-radius: var(--size-40);
-  padding: var(--size-4) var(--size-40);
+  padding: 0 var(--size-40);
   position: relative;
 
   i {
@@ -21,6 +21,6 @@
   }
 
   @include max-mq(372px) {
-    padding: var(--size-4) var(--size-35) var(--size-4) var(--size-60);
+    padding: 0 var(--size-35) 0 var(--size-60);
   }
 }

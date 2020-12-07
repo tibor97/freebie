@@ -1,5 +1,9 @@
 .c-card {
-  margin: var(--size-35) 0;
+  margin: var(--size-3) 0;
+
+  @include min-mq($tabletPortrait) {
+    margin: var(--size-35) var(--size-4);
+  }
 }
 
 .c-card--small {
@@ -12,8 +16,14 @@
   display: inline-block;
   padding: var(--size-10);
   border-radius: 50%;
+  width: var(--size-65);
+  height: var(--size-65);
 }
 
 .c-card__content-wrapper {
-  padding: 0 var(--size-30);
+  padding-left: var(--size-30);
+
+  @include min-mq($tabletPortrait) {
+    padding: 0 var(--size-30);
+  }
 }

@@ -15,15 +15,23 @@ h4 {
 }
 
 h1 {
-  font-size: var(--size-50);
   line-height: 1.35;
   color: var(--blue-dark);
+  font-size: var(--size-45);
+
+  @include min-mq($tabletLandscape) {
+    font-size: var(--size-50);
+  }
 }
 
 h2 {
-  font-size: var(--size-40);
+  font-size: var(--size-35);
   color: var(--blue-dark);
   line-height: 1.4;
+
+  @include min-mq($tabletLandscape) {
+    font-size: var(--size-40);
+  }
 }
 
 h3 {
