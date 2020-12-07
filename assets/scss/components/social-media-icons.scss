@@ -6,6 +6,8 @@
   color: var(--grey);
   font-size: var(--size-35);
   padding: var(--size-10);
+  cursor: pointer;
+  transition: color 0.4s;
 
   &:hover {
     color: var(--white);

@@ -16,3 +16,27 @@ navbarListItems.forEach(function(navItems) {
 		}
 	}
 });
+
+const tabs = document.querySelectorAll(".c-tabs-wrapper");
+const tab = document.querySelectorAll(".c-tab");
+const tabContent = document.querySelectorAll(".tab-content");
+
+function onTabClick(event) {
+
+  for (let i = 0; i < tab.length; i++) {
+    tab[i].classList.remove("c-tab--active");
+  }
+
+  for (let i = 0; i < tabContent.length; i++) {
+    tabContent[i].classList.remove("tab-content--active");
+  }
+
+  event.target.classList.add('c-tab--active');
+  let classString = event.target.getAttribute('data-target');
+  console.log(classString);
+  document.getElementById('pricing-section-wrapper').getElementsByClassName(classString)[0].classList.add("tab-content--active");
+}
+
+for (let i = 0; i < tab.length; i++) {
+  tab[i].addEventListener('click', onTabClick, false);
+}
