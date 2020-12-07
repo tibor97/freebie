@@ -20,10 +20,6 @@
   height: var(--size-65);
 }
 
-.c-card__content-wrapper {
+.c-card__content-wrapper--left {
   padding-left: var(--size-30);
-
-  @include min-mq($tabletPortrait) {
-    padding: 0 var(--size-30);
-  }
 }
